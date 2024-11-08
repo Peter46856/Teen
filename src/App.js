@@ -114,7 +114,6 @@ function App() {
           <Route path="/online" element={<OnlineUsers />} />
           <Route path="/matches" element={<Matches />} />
           <Route path="/component/message-container" element={<Message />} />
-         
           <Route path="/profile" element={<Profile />} />
           <Route path="/component/SignUp" element={<SignUp />} />
           {/*<Route path="/component/Login" element={<Login />} /> */}
