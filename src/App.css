@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container1{
+  width: 100vw;
+  min-height:100vh;
+  background: #ced8ff;
+  transition: 0.5s;
+}
+
+
+.container.dark{
+  background: #222;
+}
+
+.card-collection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
