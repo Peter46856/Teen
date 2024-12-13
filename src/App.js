@@ -35,6 +35,7 @@ function App() {
       <Router>
         {/* Navbar component */}
         <Navbar theme={theme} setTheme={setTheme} />
+        <Users />
 
         {/* Define routes for the application */}
         <Routes>
