@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
-import Footer from './footer';
-import Navbar from './navbar';
+//import Footer from './footer';
+//import Navbar from './navbar';
 import Content from './content';
 import './App.css';
 
@@ -28,10 +28,10 @@ function App() {
     <div className={`container1 ${theme}`}>
 
        
-        <Navbar theme={theme} setTheme={setTheme} />
+       
        
         <Content />
-        <Footer />
+        
 
     </div>
   );
