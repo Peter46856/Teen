@@ -39,7 +39,7 @@ function App() {
 
         {/* Define routes for the application */}
         <Routes>
-          <Route path="/" element={<Users />} />
+          <Route path="/users" element={<Users />} />
           <Route path="/online" element={<OnlineUsers />} />
           <Route path="/matches" element={<Matches />} />
           <Route path="/message-container" element={<Message />} />
