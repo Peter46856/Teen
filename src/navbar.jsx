@@ -23,7 +23,7 @@ const Navbar = ({theme, setTheme}) => {
         <img src={theme === 'light' ? logo_light : logo_dark} alt="logo" className="logo"/>
         <ul>
         <li className="nav-item mr-3">
-          <Link className="nav-link p-2 mr-2" to="/">Home</Link>
+          <Link className="nav-link p-2 mr-2" to="/users">Home</Link>
         </li>
 
         <li className="nav-item">
