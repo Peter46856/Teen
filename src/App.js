@@ -1,15 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import Footer from './footer';
-import Profile from './component/profile';
-import Users from './users';
-import './App.css';
 import Navbar from './navbar';
-import OnlineUsers from './online';
-import SignUp from './component/SignUp';
-import Matches from './matches';
-import './message.css';
-import Message from './component/message-container';
+import Content from './content';
+import './App.css';
 
 function App() {
   const current_theme = localStorage.getItem('current_theme');
@@ -32,25 +26,13 @@ function App() {
 
   return (
     <div className={`container1 ${theme}`}>
-      <Router>
-        {/* Navbar component */}
+
+       
         <Navbar theme={theme} setTheme={setTheme} />
-        <Users />
-
-        {/* Define routes for the application */}
-        <Routes>
-          <Route path="/users" element={<Users />} />
-          <Route path="/online" element={<OnlineUsers />} />
-          <Route path="/matches" element={<Matches />} />
-          <Route path="/message-container" element={<Message />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/signup" element={<SignUp />} />
-          {/* Additional routes can be added here */}
-        </Routes>
-
-        {/* Footer component */}
+       
+        <Content />
         <Footer />
-      </Router>
+
     </div>
   );
 }
