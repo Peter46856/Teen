@@ -21,7 +21,7 @@ function Content() {
     <div className={`container1 ${theme}`}>
       <Router>
        
-
+         <Users />
         {/* Define routes for the application */}
         <Routes>
           <Route path="/" element={<Users />} />
