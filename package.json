@@ -1,5 +1,7 @@
 {
   "name": "my-react-app",
+  "homepage": "https://Peter46856.github.io/my-react-app"
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
